@@ -1,72 +1,109 @@
-# TailAdmin React - Free React Tailwind Admin Dashboard Template
+## [Material Kit - React](https://material-kit-react.devias.io/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=%F0%9F%9A%A8Devias%20Freebie%20Alert%20-%20An%20awesome%20ready-to-use%20register%20page%20made%20with%20%23material%20%23react%0D%0Ahttps%3A%2F%2Fdevias.io%20%23createreactapp%20%23devias%20%23material%20%23freebie%20%40devias-io)
 
-TailAdmin is a free and open-source admin dashboard template built on **React and Tailwind CSS**, providing developers with everything they need to create a comprehensive, data-driven back-end, 
-dashboard, or admin panel solution for upcoming web projects.
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-[![tailwind react admin template](https://ucarecdn.com/d2a6daed-eb9c-4c2f-8a95-4419c450e23a/tailadminreact.jpg)](https://react-demo.tailadmin.com/)
+[![Material Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
 
+> Free React Admin Dashboard made with [MUI's](https://mui.com/?ref=devias-io)
+> components, [React](https://reactjs.org/?ref=devias-io) and of
+> course [Next.js](https://github.com/vercel/next.js/?ref=devias-io) to boost your app development
+> process!
 
-With TailAdmin, you get access to all the necessary dashboard UI components, elements, and pages required to build a feature-rich and complete dashboard or admin panel. Whether you're building dashboard or admin panel for a complex web application or a simple website, TailAdmin is the perfect solution to help you get up and running quickly.
+## Demo
 
-### [✨ Visit Website](https://tailadmin.com/)
+- [Dashboard Page](https://material-kit-react.devias.io)
+- [Companies Page](https://material-kit-react.devias.io/companies)
+- [Customers Page](https://material-kit-react.devias.io/customers)
+- [Account Page](https://material-kit-react.devias.io/account)
+- [Settings Page](https://material-kit-react.devias.io/settings)
+- [Login Page](https://material-kit-react.devias.io/auth/login)
+- [Register Page](https://material-kit-react.devias.io/auth/register)
 
-### [🚀 PRO Demo](https://react-demo.tailadmin.com/)
-### [🚀 FREE Demo](https://free-react-demo.tailadmin.com/)
+## Free Figma Community File
 
-### TailAdmin React PRO vs TailAdmin React FREE Comparison 📊
+- [Duplicate File](https://www.figma.com/file/b3L1Np4RYiicZAOMopHNkm/Devias-Dashboard-Design-Library-Kit)
 
-#### [TailAdmin React PRO](https://react-demo.tailadmin.com/)
-- 4 Unique Dashboards: Analytics, Ecommerce, Marketing, and CRM (More will be added)
-- 120+ Dashboard UI Components
-- 200+ Total UI Elements
-- 45+ HTML Files
-- All Essential Elements and Files
-- Full Figma Design Source - As Shown on Demo
+## Upgrade to PRO Version
 
-___
+We also have a pro version of this product which bundles even more pages and components if you want
+to save more time and design efforts :)
 
-#### [TailAdmin React FREE](https://free-react-demo.tailadmin.com/)
-- 1 Unique Dashboard
-- 30+ Dashboard UI Components
-- 50+ Total UI Elements 
-- 10+ HTML Files
-- TypeScript Support
-- Basic UI Kit Elements and Files
-- Figma Design Source - Free Sample
-___
+| Free Version (this one) | [Material Kit Pro - React](https://mui.com/store/items/devias-kit-pro/)  |
+|-------------------------|:-------------------------------------------------------------------------|
+| **9** Demo Pages        | **40+** demo pages                                                       
+| ✔ Mocked Authentication | ✔ Authentication with **Amplify**, **Auth0**, **JWT** and **Firebase**   
+| -                       | ✔ Dark & light mode                                                      
+| -                       | ✔ CRA version                                                            
+| -                       | ✔ TypeScript version - for Standard Plus and Extended license            
+| -                       | ✔ Design files (sketch & figma) - for Standard Plus and Extended license 
+| -                       | ✔ Complete users flows                                                   
 
-### [⬇️ Download Now](https://tailadmin.com/download)
+## Quick start
 
-### [⚡ Get PRO Version](https://tailadmin.com/pricing)
+- [Download from Github](https://github.com/devias-io/material-kit-react/archive/master.zip)
+  or [Download from Devias](https://devias.io/products/material-kit-react) or clone the
+  repo: `git clone https://github.com/devias-io/material-kit-react.git`
 
-### [📄 Documentation/Installation](https://tailadmin.com/docs)
+- Make sure your Node.js and npm versions are up to date for `React 18`
 
-### [🖌️ TailAdmin Figma Free Sample](https://www.figma.com/community/file/1214477970819985778)
+- Install dependencies: `npm install` or `yarn`
 
-### [👉 TailAdmin HTML Version](https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template)
+- Start the server: `npm run dev` or `yarn dev`
 
-TailAdmin React dashboard template based on Tailwind CSS is a pre-designed starting point for building a web-based dashboard using the React JavaScript library and the Tailwind CSS utility-first framework. This Tailwind CSS + React Dashboard Template - built using Tailwind CSS and **includes pre-built components, such as navigation menus, charts, tables, and forms, which can be easily customized and integrated into a small-to-large React web application**.
+- Views are on: `localhost:3000`
 
-If you're looking for a high-quality **React-Tailwind Dashboard, Admin Panel Template, or UI Kit**, TailAdmin will be the perfect choice for you!
+## File Structure
 
-## TailAdmin React - Installation
+Within the download you'll find the following directories and files:
 
-You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it) and TailAdmin uses **Vite** for frontend tooling, to peform installation and building production version, please follow these steps from below:
+```
+material-kit-react
 
-- Use terminal and navigate to the project (tailadmin-react) root.
+┌── .eslintrc.json
+├── .gitignore
+├── CHANGELOG.md
+├── LICENSE.md
+├── next.config.js
+├── package.json
+├── README.md
+├── public
+└── src
+	├── components
+	├── contexts
+	├── guards
+	├── hocs
+	├── hooks
+	├── layouts
+	├── sections
+	├── theme
+	├── utils
+	└── pages
+		├── 404.js
+		├── _app.js
+		├── _document.js
+		├── account.js
+		├── companies.js
+		├── customers.js
+		├── index.js
+		├── products.js
+		└── settings.js
+		└──  auth
+			├── login.js
+			└── register.js
+```
 
-- Then run : <code>npm install</code>
+## Resources
 
-- Then run : <code>npm run dev</code>
+- More freebies like this one: <https://devias.io>
 
-Now, in the browser go to <code>localhost:5173</code>
+## Reporting Issues:
 
-**For Production Build**
-Run : <code>npm run build</code>
+- [Github Issues Page](https://github.com/devias-io/react-material-dashboard/issues?ref=devias-io)
 
-Default build output directory: /dist
+## License
 
-This command will generate a dist as build folder in the root of your template that you can upload to your server.
+- Licensed under MIT (https://github.com/devias-io/react-material-dashboard/blob/master/LICENSE.md)
 
-## Tons of React Tailwind Components for Dashboard
-React and Tailwind are two popular technologies that have taken the web development world by storm. React is a JavaScript library for building user interfaces, while Tailwind is a utility-first CSS framework that makes it easy to style web applications. TailAdmin React Offers 200+ Essential React + Tailwind CSS UI Components that you copy-paste and use with your dashboard projects. That includes - charts, graphs, navbars, tabs, buttons, cards, tables, profile, tabs, forms, modals, app pages, calender, web apps example templates and more... for React and Styled using Tailwind CSS
+## Contact Us
+
+- Email Us: support@deviasio.zendesk.com
